@@ -467,23 +467,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 075ef458a9f0246edaa08f5904e1ca1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  SlamAttack:
-    m_Name: Slam Attack
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: 1ceb34e5-6663-44b9-a76b-a238ed55a2a8
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings:
-    - m_Name: 
-      m_Id: 4a07af9c-2368-4acd-941d-f07cd1566313
-      m_Path: <Keyboard>/a
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Slam Attack
-      m_Flags: 0
-    m_Flags: 0
 --- !u!1 &1467600044
 GameObject:
   m_ObjectHideFlags: 0
