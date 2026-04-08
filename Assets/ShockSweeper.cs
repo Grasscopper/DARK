@@ -8,6 +8,9 @@ public class ShockSweeper : MonoBehaviour
     Animator m_Animator;
     // Use this for deciding if the GameObject can jump or not
     bool m_Jump;
+    Rigidbody2D rb;
+    Vector2 direction;
+    bool isMoving = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -16,12 +19,20 @@ public class ShockSweeper : MonoBehaviour
         m_Animator = gameObject.GetComponent<Animator>();
         // The GameObject cannot jump
         m_Jump = false;
+        rb = gameObject.GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        // direction = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         //Click the mouse or tap the screen to change the animation
+        // if (Input.GetKeyDown("d")) {
+        //     isMovingLeft = true;
+        // }
+        // if (Input.GetKeyDown("d")) {
+        //     isMovingRight = true;
+        // }
         if (Input.GetKeyDown(KeyCode.Space))
             m_Jump = true;
 
@@ -35,5 +46,18 @@ public class ShockSweeper : MonoBehaviour
         //The GameObject is jumping, so send the Boolean as enabled to the Animator. The jump animation plays.
         if (m_Jump == true)
             m_Animator.SetBool("Slam", true);
+    }
+
+    // FixedUpdate is called to perform physics system calculations (e.g. movement)
+    void FixedUpdate()
+    {
+        if (Input.GetAxis("Horizontal") > 0) {
+            rb.linearVelocity = new Vector2(2, 0);
+        }
+        else if (Input.GetAxis("Horizontal") < 0) {
+            rb.linearVelocity = new Vector2(-2, 0);
+        } else {
+            rb.linearVelocity = Vector2.zero;
+        }
     }
 }

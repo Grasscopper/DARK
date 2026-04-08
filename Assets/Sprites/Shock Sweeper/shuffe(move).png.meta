@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -137,11 +137,11 @@ TextureImporter:
       name: shuffe(move)_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 209
-        width: 33
-        height: 21
-      alignment: 0
+        x: 0
+        y: 210
+        width: 88
+        height: 24
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -159,11 +159,11 @@ TextureImporter:
       name: shuffe(move)_1
       rect:
         serializedVersion: 2
-        x: 1
-        y: 179
-        width: 33
-        height: 22
-      alignment: 0
+        x: 0
+        y: 180
+        width: 88
+        height: 24
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -181,11 +181,11 @@ TextureImporter:
       name: shuffe(move)_2
       rect:
         serializedVersion: 2
-        x: 1
-        y: 149
-        width: 33
-        height: 22
-      alignment: 0
+        x: 0
+        y: 180
+        width: 88
+        height: 24
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -200,36 +200,14 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shuffe(move)_3
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 119
-        width: 33
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4e206a9ed02c996d0800000000000000
-      internalID: -2983139913145908508
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: shuffe(move)_4
       rect:
         serializedVersion: 2
-        x: 2
-        y: 89
-        width: 33
-        height: 20
-      alignment: 0
+        x: 0
+        y: 120
+        width: 88
+        height: 24
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -247,11 +225,11 @@ TextureImporter:
       name: shuffe(move)_5
       rect:
         serializedVersion: 2
-        x: 2
-        y: 59
-        width: 33
-        height: 21
-      alignment: 0
+        x: 0
+        y: 150
+        width: 88
+        height: 24
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -269,11 +247,11 @@ TextureImporter:
       name: shuffe(move)_6
       rect:
         serializedVersion: 2
-        x: 2
-        y: 29
-        width: 33
-        height: 22
-      alignment: 0
+        x: 0
+        y: 90
+        width: 88
+        height: 24
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -291,11 +269,11 @@ TextureImporter:
       name: shuffe(move)_7
       rect:
         serializedVersion: 2
-        x: 2
-        y: 0
-        width: 33
-        height: 19
-      alignment: 0
+        x: 0
+        y: 60
+        width: 88
+        height: 24
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -309,11 +287,55 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: shuffe(move)_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 30
+        width: 88
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118facf12692944eab93160e32aa00b6
+      internalID: 839424214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuffe(move)_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 88
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c97f0594d28431ba5c7625f8ceabc0
+      internalID: 1756992792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c864f1522a8094900a1c8f5a76b3e03a
     internalID: 0
     vertices: []
     indices: 
@@ -321,7 +343,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":10.0},"gridSpriteSize":{"x":88.0,"y":24.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":6,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       shuffe(move)_0: 1559514206008731582
       shuffe(move)_1: -1207393100361714698
@@ -331,6 +355,8 @@ TextureImporter:
       shuffe(move)_5: 4300611324449068570
       shuffe(move)_6: 5631017432771177300
       shuffe(move)_7: 6380330009702543217
+      shuffe(move)_8: 839424214
+      shuffe(move)_9: 1756992792
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
