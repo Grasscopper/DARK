@@ -52,10 +52,10 @@ public class ShockSweeper : MonoBehaviour
     void FixedUpdate()
     {
         if (Input.GetAxis("Horizontal") > 0) {
-            rb.linearVelocity = new Vector2(-5, 0);
+            rb.linearVelocity = new Vector2(2, 0);
         }
         else if (Input.GetAxis("Horizontal") < 0) {
-            rb.linearVelocity = new Vector2(5, 0);
+            rb.linearVelocity = new Vector2(-2, 0);
         } else {
             rb.linearVelocity = Vector2.zero;
         }
