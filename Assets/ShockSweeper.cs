@@ -27,9 +27,12 @@ public class ShockSweeper : MonoBehaviour
     {
         // direction = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         //Click the mouse or tap the screen to change the animation
-        if (Input.GetKeyDown("d")) {
-            isMoving = true;
-        }
+        // if (Input.GetKeyDown("d")) {
+        //     isMovingLeft = true;
+        // }
+        // if (Input.GetKeyDown("d")) {
+        //     isMovingRight = true;
+        // }
         if (Input.GetKeyDown(KeyCode.Space))
             m_Jump = true;
 
@@ -48,8 +51,11 @@ public class ShockSweeper : MonoBehaviour
     // FixedUpdate is called to perform physics system calculations (e.g. movement)
     void FixedUpdate()
     {
-        if (isMoving) {
-            rb.linearVelocity = new Vector2(1, 0);
+        if (Input.GetAxis("Horizontal") > 0) {
+            rb.linearVelocity = new Vector2(-5, 0);
+        }
+        else if (Input.GetAxis("Horizontal") < 0) {
+            rb.linearVelocity = new Vector2(5, 0);
         } else {
             rb.linearVelocity = Vector2.zero;
         }
